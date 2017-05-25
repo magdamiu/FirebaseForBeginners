@@ -8,22 +8,27 @@
     android:padding="@dimen/small_space"
     tools:context="com.magdamiu.firebaseforbeginners.FirstActivity">
 
+    <ImageView
+        android:id="@+id/iv_firebase"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1" />
+
     <Button
-        android:onClick="btnSignIn_onClick"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="@android:color/darker_gray"
+        android:onClick="btnSignIn_onClick"
         android:text="@string/firebase_sign_in_google"
-        android:textColor="@android:color/white" />
+        android:textColor="@color/colorPrimaryDark" />
 
     <Button
-        android:onClick="btnRealtime_onClick"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginTop="@dimen/small_space"
         android:layout_weight="1"
-        android:background="@android:color/darker_gray"
+        android:onClick="btnRealtime_onClick"
         android:text="@string/firebase_realtime"
-        android:textColor="@android:color/white" />
+        android:textColor="@color/colorPrimaryDark" />
 </LinearLayout>

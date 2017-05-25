@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Firebase For Beginners</string>
+    <string name="hello_world_example">Hello World Example</string>
+    <string name="add_country">ADD Country</string>
+    <string name="read_countries">read countries</string>
+    <string name="country_name">Name</string>
+    <string name="country_town">Town</string>
+    <string name="add_new_country">Add new country</string>
+    <string name="firebase_sign_in_google">Google Sign In using Firebase</string>
+    <string name="firebase_realtime">Realtime Database</string>
+    <string name="fill_the_inputs">Please add values in the inputs</string>
+</resources>

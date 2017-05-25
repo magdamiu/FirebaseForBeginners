@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/big_space"
+    tools:context="com.magdamiu.firebaseforbeginners.RealtimeDatabaseActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/big_space"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="btnHelloWorld_onClick"
+        android:text="@string/hello_world_example"
+        android:textColor="@android:color/white" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginBottom="@dimen/big_space"
+        android:layout_marginTop="@dimen/big_space"
+        android:background="@color/colorPrimaryDark"></View>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/big_space"
+        android:text="@string/add_new_country"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/medium_space"
+        android:hint="@string/country_name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/et_town"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/country_town"
+        android:inputType="text" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/big_space"
+        android:layout_marginTop="@dimen/medium_space"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="btnAddCountry_onClick"
+        android:text="@string/add_country"
+        android:textColor="@android:color/white" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginBottom="@dimen/big_space"
+        android:layout_marginTop="@dimen/big_space"
+        android:background="@color/colorPrimaryDark"></View>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/big_space"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="btnReadCountries_onClick"
+        android:text="@string/read_countries"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tv_firebase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
